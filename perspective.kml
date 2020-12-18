@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<Camera>
+		<longitude>-92.192424327</longitude>
+		<latitude>46.838397830</latitude>
+		<altitude>403.960934</altitude>
+		<roll>0.862449</roll>
+		<tilt>91.159584</tilt>
+		<heading>180.965912</heading>
+		<altitudeMode>absolute</altitudeMode>
+	</Camera>
+</Document>
+</kml>

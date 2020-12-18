@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<Camera>
+		<longitude>-92.192424327</longitude>
+		<latitude>46.838397830</latitude>
+		<altitude>10403.960934</altitude>
+		<heading>180.965912</heading>
+		<tilt>0</tilt>
+		<altitudeMode>absolute</altitudeMode>
+	</Camera>
+	<Style id="sn_airports">
+		<IconStyle>
+			<scale>1.4</scale>
+			<heading>180.965912</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_airports">
+		<Pair>
+			<key>normal</key>
+				<styleUrl>#sn_airports</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CFBCN</name>
+			<styleUrl>#msn_airports</styleUrl>
+			<Point>
+				<altitudeMode>clamptoground</altitudeMode>
+				<coordinates>-92.192424327,46.838397830</coordinates>
+			</Point>
+	</Placemark>
+</Document>
+</kml>

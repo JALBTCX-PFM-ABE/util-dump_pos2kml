@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<Placemark>
+		<name>perspective</name>
+		<LookAt>
+			<longitude>-79.23849722222214</longitude>
+			<latitude>44.03944479682974</latitude>
+			<altitude>400</altitude>
+			<range>00.000000203429</range>
+			<tilt>90.00</tilt>
+			<heading>28.00020379152675</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+	</Placemark>
+</Document>
+</kml>
